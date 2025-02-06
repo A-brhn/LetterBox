@@ -1,23 +1,23 @@
 {
-  "name": "letterbox",
+  "name": "letterboxd-project",
   "version": "1.0.0",
-  "description": "A Platform for Social Film Discovery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/A-brhn/LetterBox.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Node.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/A-brhn/LetterBox/issues"
-  },
-  "homepage": "https://github.com/A-brhn/LetterBox#readme",
+  "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.7"
   }
 }

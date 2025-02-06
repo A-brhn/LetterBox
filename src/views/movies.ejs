@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movies</title>
+</head>
+<body>
+    <h1>Movie List</h1>
+    <ul>
+        <% movies.forEach(movie => { %>
+            <li>
+                <h3><%= movie.title %></h3>
+                <p><%= movie.description %></p>
+                <form action="/movies/delete/<%= movie._id %>" method="POST">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        <% }) %>
+    </ul>
+
+    <h2>Add New Movie</h2>
+    <form action="/movies/add" method="POST">
+        <input type="text" name="title" placeholder="Title" required>
+        <input type="text" name="description" placeholder="Description" required>
+        <input type="text" name="genre" placeholder="Genre" required>
+        <input type="number" name="releaseYear" placeholder="Year" required>
+        <input type="text" name="poster" placeholder="Poster URL">
+        <button type="submit">Add Movie</button>
+    </form>
+</body>
+</html>
