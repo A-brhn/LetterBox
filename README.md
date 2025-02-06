@@ -1,4 +1,4 @@
-# in the name of Googness
+# in the name of GOD
 
 ## LetterBox
 A Platform for Social Film Discovery
@@ -20,8 +20,10 @@ This is a web server developed with Node.js
 
 To run the web server :
 
-- ]nstall Node.js
+- Install Node.js
 - Navigate to root Project Directory
 - Install npm by : npm install
 - run server by : node index.js
 - open http://localhost:3000 in your browser
+
+Picture and video will be uploaded
