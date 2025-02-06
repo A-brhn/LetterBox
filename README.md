@@ -23,7 +23,7 @@ To run the web server :
 - Install Node.js
 - Navigate to root Project Directory
 - Install npm by : npm install
-- run server by : node index.js
+- run server by : node Node.js
 - open http://localhost:3000 in your browser
 
 Picture and video will be uploaded
